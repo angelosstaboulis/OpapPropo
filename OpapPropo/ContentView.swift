@@ -41,7 +41,7 @@ struct ContentView: View {
                         Text(item.teamHome).padding(5)
                         Text(item.teamAway).padding(5)
                         Text(item.score)
-                    }.frame(width:300,alignment: .leading)
+                    }.frame(width:350,alignment: .leading)
                 }
              
             }.navigationTitle("Αποτελέσματα ΠΡΟΠΟ")
